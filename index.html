@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Visa Request Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="adjustment fs-1">E-Visa Request Form</h1>
+      <div class="heading adjustment">
+        <small>if you have any questions about the application form please don't
+          hasitate to contact us via
+          <span class="whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp</span>
+          or
+          <span class="telegram"><i class="fab fa-telegram"></i> Telegram</span>
+        </small>
+      </div>
+      <div class="progress-container">
+        <hr class="progress-line" />
+        <ul class="progressbar">
+          <li class="active">
+            <div class="icon">
+              <img src="assets/icons/page1 edit.svg" width="60%" alt="Step 1" />
+            </div>
+            <strong>Documentary <br />
+              Requirements</strong>
+          </li>
+          <li>
+            <div class="icon">
+              <img src="assets/icons/file-question-alt.svg" width="60%"
+                alt="Step 2" />
+            </div>
+            Submission <br />
+            Review
+          </li>
+          <li>
+            <div class="icon">
+              <img src="assets/icons/file-check-alt.svg" width="60%"
+                alt="Step 3" />
+            </div>
+            Statement and <br />
+            Verification
+          </li>
+        </ul>
+      </div>
+      <div class="heading adjustment my-5">
+        <small>Before completing the application form, please carefully read
+          through all the provided details.
+        </small>
+      </div>
+      <form action="#" method="post" class="evisa-form">
+        <div class="form-row">
+          <div class="form-group half-width">
+            <label for="Visa">Select Visa Type*</label>
+            <select name="Visa" id="Visa">
+              <option value>Choose</option>
+            </select>
+          </div>
+
+          <div class="form-group half-width">
+            <label for="persons">Purpose of Visit *</label>
+            <select name="purpose" id="purpose">
+              <option value>Choose</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group third-width services-item">
+            <label for="service">Select the Services*</label>
+            <select name="service" id="service">
+              <option value>Choose</option>
+              <option value>
+                SD 1730SERVIC ofshore Single Entry Visa B211A| IDR2700000 1
+                ntinue
+              </option>
+              <option value>
+                EXPRESS 3 DAYS Offshore Single Entry Visa B211A | 4,400,000 IDR
+                |USD 282
+              </option>
+            </select>
+          </div>
+          <div class="services-persons">
+            <div class="form-group third-width number-of-persons">
+              <label for="persons">How Many Persons *</label>
+              <div class="input-group" style="margin-top: 10px">
+                <button type="button" class="input-group-btn decrement-btn">
+                  -
+                </button>
+                <input type="text" name="persons" id="persons"
+                  class="form-control number-input" value="1" readonly />
+                <button type="button" class="input-group-btn increment-btn">
+                  +
+                </button>
+              </div>
+            </div>
+
+            <div class="form-group third-width mt-5 third-form">
+              <label for="recommendation">Recommendation *</label>
+              <select name="recommendation" id="recommendation">
+                <option value>Choose</option>
+                <option value>Google</option>
+                <option value>Social Network</option>
+                <option value>Alex</option>
+                <option value>John Bike Shop</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn">
+          <a href="page2.html"> <div class="continue centerr">Continue</div></a>
+        </div>
+      </form>
+
+      <div class="form-row adjustment">
+        <div class="form-group third-width">
+          <h4>Documents</h4>
+          <small>
+            <ul>
+              <li>Personal Information Details</li>
+              <li>Scan of the cover page of the passport</li>
+              <li>Scan of the passport's identity and signature pages</li>
+            </ul>
+          </small>
+        </div>
+
+        <div class="form-group third-width spacing border-right ">
+          <small>
+            <ul>
+              <li>Bank statement</li>
+              <li>Recent color passport-style photo</li>
+            </ul>
+          </small>
+        </div>
+
+        <div class="form-group third-width float-right">
+          <h4>Notes</h4>
+          <small>
+            <ul>
+              <li>
+                We recommend booking your flight after receiving your visa
+              </li>
+              <li>
+                Ensure the scan is flat, readable, without blur, shadow, or
+                flash
+              </li>
+              <li>Full-page scan/both pages</li>
+            </ul>
+          </small>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

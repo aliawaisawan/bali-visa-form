@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="heading">
+        <h1 class="fs-1">E-Visa Request Form</h1>
+        <small
+          >if you have any questions about the application form please don't
+          hasitate to contact us via
+          <span class="whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp</span>
+          or
+          <span class="telegram"><i class="fab fa-telegram"></i> Telegram</span>
+        </small>
+      </div>
+      <div class="progress-container">
+        <hr class="progress-line" />
+        <ul class="progressbar">
+          <li class="active">
+            <div class="icon">
+              <img src="assets/icons/page1 edit.svg" width="60%" alt="Step 1" />
+            </div>
+            <strong>Documentary <br />
+              Requirements</strong>
+          </li>
+          <li>
+            <div class="icon">
+              <img src="assets/icons/file-question-alt.svg" width="60%" alt="Step 2" />
+            </div>
+            Submission <br />
+            Review
+          </li>
+          <li>
+            <div class="icon">
+              <img src="assets/icons/file-check-alt.svg" width="60%" alt="Step 3" />
+            </div>
+            Statement and <br />
+            Verification
+          </li>
+        </ul>
+      </div>
+      <div class="steps"></div>
+      <div class="navigation">
+        <a href="#" class="active">Customer #1</a>
+        <a href="page3.html">Customer #2</a>
+        <a href="#">Customer #3</a>
+      </div>
+      <h2 class="custom-heading">PERSONAL INFORMATION</h2>
+      <form action="#" method="POST">
+      <div class="form-one">
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >First Name <span class="important">*</span></label
+            >
+            <input type="text" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Last Name <span class="important">*</span></label
+            >
+            <input type="text" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname">Sex <span class="important">*</span></label>
+            <div class="gender">
+              <div class="female">
+                <input type="radio" id="female" name="gender" value="FEMALE" />
+                <label for="female">Female</label>
+              </div>
+              <div class="male">
+                <input type="radio" name="gender" value="MALE" id="male" />
+                <label for="male">Male</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Birth Date <span class="important">*</span></label
+            >
+            <select name="" class="custom-select" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">one</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Place of Birth <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">one</option>
+            </select>
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Marriage Status <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">Unmarried</option>
+              <option value="">Married</option>
+              <option value="">Widower</option>
+              <option value="">Widow</option>
+              <option value="">Divorced</option>
+            </select>
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Nationality <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">one</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Email <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Mobile <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Whatsapp or Telegram <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+        </div>
+      </div>
+      <h3 class="sub-heading">Residence in Home Country</h3>
+      <div class="form-two">
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Street <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Address 2 <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname">City <span class="important">*</span></label>
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Region/State <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Postal/ZIP Code <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Country <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">one</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <h3 class="sub-heading">
+        Location in Indonesia
+        <span class="heading-sub">(Address of Hotel, Villa or Other)</span>
+      </h3>
+      <div class="form-three">
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Type of Accommodation (Hotel, Villa etc.)
+              <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Address <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname">City <span class="important">*</span></label>
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+        </div>
+        <div class="row" style="justify-content: space-between">
+          <div class="input-field">
+            <label for="firstname"
+              >Region/State <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Postal/ZIP Code <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field" style="width: 20em"></div>
+        </div>
+      </div>
+      <h2 class="custom-heading">EMERGENCY CONTACT DETAILS</h2>
+      <div class="form-four">
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >First Name <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Last Name <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Connection Type <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">Mother/Father</option>
+              <option value="">Grandmother/Grandfather</option>
+              <option value="">Sibling</option>
+              <option value="">Other relative</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Address <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Address 2 <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname">City <span class="important">*</span></label>
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Region/State <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Postal/ZIP Code <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Country <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">Japan</option>
+            </select>
+          </div>
+        </div>
+        <div class="row" style="justify-content: space-between">
+          <div class="input-field">
+            <label for="firstname"
+              >Email <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="firstname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Mobile <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field" style="width: 20em"></div>
+        </div>
+      </div>
+      <h2 class="custom-heading">TRAVEL DOCUMENT INFORMATION</h2>
+      <div class="form-five">
+        <div class="row">
+          <div class="input-field">
+            <label for="firstname"
+              >Choose Travel Document <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">Japan</option>
+            </select>
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Document Nr <span class="important">*</span></label
+            >
+            <input type="text" class="custom-input" id="lastname" />
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Issuing Place <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+              <option value="">Japan</option>
+            </select>
+          </div>
+        </div>
+        <div class="row" style="justify-content: space-between">
+          <div class="input-field">
+            <label for="firstname"
+              >Issue Date <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+            </select>
+          </div>
+          <div class="input-field">
+            <label for="firstname"
+              >Expiration Date <span class="important">*</span></label
+            >
+            <select name="" id="">
+              <option value="" selected disabled>Choose</option>
+            </select>
+          </div>
+          <div class="input-field" style="width: 20em"></div>
+        </div>
+      </div>
+      <h2 class="custom-heading">ACTIVITY DETAILS</h2>
+      <div class="form-six">
+        <div class="row">
+          <div class="input-field">
+            <label for=""
+              >Have you ever been deported from Indonesia?
+              <span class="important">*</span></label
+            >
+            <div class="row">
+              <div><input type="radio" name="deport" id="yes" /> <label for="yes">Yes</label></div>
+              <div><input type="radio" name="deport" id="no" /> <label for="no">No</label></div>
+              <div style="width: 10em"></div>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for=""
+              >Have you ever been overstayed in Indonesia?
+              <span class="important">*</span></label
+            >
+            <div class="row">
+              <div><input type="radio" name="over" id="yess" /> <label for="yess">Yes</label></div>
+              <div><input type="radio" name="over" id="noo" /> <label for="noo">No</label></div>
+              <div style="width: 10em"></div>
+            </div>
+          </div>
+          <div style="width: 20em;"></div>
+        </div>
+      </div>
+      <div class="action-buttons">
+        <a href="index.html">
+            <div class="back">Back</div>
+        </a>
+        <a href="page3.html">
+            <div type="submit" class="continue">Continue</div>
+        </a>
+      </div>
+    </form>
+    </section>
+  </body>
+</html>

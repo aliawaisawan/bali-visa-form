@@ -1,0 +1,71 @@
+* { padding: 0%; margin: 0%; }
+label, select, option{font-weight: 400 !important;}
+body { display: flex!important; flex-direction: row!important; flex-wrap: wrap; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+small { text-wrap: wrap; }
+.container { width: 100%!important; padding-right: 15%; padding-left: 15%; margin-right: auto; margin-left: auto; }
+.navigation { width: 100%; height: 40px; background-color: #f4f4f4; margin-top: 40px; display: flex; justify-content: start; align-items: center; flex-wrap: nowrap; overflow-x: auto; }
+.navigation a { text-decoration: none; color: #9b9b9b; font-weight: bold; font-size: 15px; padding-left: 20px; padding-right: 20px; text-wrap: nowrap; }
+.navigation a:hover { color: black; }
+.navigation .active { color: black; border-top: 2px solid red; margin-top: -10px; padding-top: 10px; }
+input[type="checkbox"] { background-color: red; color: red; }
+.whatsapp { font-weight: bold; color: green; }
+.telegram { color: lightblue; font-weight: bold; }
+.heading { margin-top: 5%; }
+.heading h1 { font-weight: bolder; padding-bottom: 15px; }
+.custom-heading { margin-top: 40px; margin-bottom: 20px; border-left: 2px solid red; padding-left: 10px; }
+.row { display: flex; justify-content: space-between; flex-wrap: wrap; padding-bottom: 40px; }
+.input-field { display: flex; flex-direction: column; }
+.gender { display: flex; flex-direction: row; padding-top: 5px; justify-content: start; width: 10em; }
+label { font-size: 14px; font-weight: 500; padding-bottom: 8px; padding-top: 8px; }
+input[type="text"] { width: 100%; height: 30px; font-size: medium; padding: 3px; background-color: #f4f4f4 !important; border: 1px solid #d0d0d0 !important; }
+input[type="text"], .custom-input { width: 16em; }
+input[type="radio"] { accent-color: red !important; width: 13px !important; height: 13px !important; }
+.custom-input { width: 20em !important; }
+.custom-select { border-radius: 2px !important; }
+select, option { height: 40px !important; width: 20.5em; padding: 8px; font-size: medium; background-color: #f4f4f4 !important; border: 1px solid #d0d0d0 !important; }
+.important { color: red; }
+.sub-heading { padding-bottom: 20px; }
+.heading-sub { font-weight: 400; }
+.gender .female { padding-right: 15px; }
+.action-buttons { display: flex; justify-content: center; margin-bottom: 20px; flex-wrap: wrap; }
+.action-buttons .continue { text-align: center; text-decoration: none; background-color: #2d5883; padding: 10px; border: 1px solid #2d5883; width: 15em; color: #fff; font-size: 1rem; border-radius: 10px; cursor: pointer; margin-left: 10px; }
+.action-buttons .back { text-align: center; background-color: #fff; padding: 10px; border: 1px solid #9b9b9b; width: 15em; color: #9b9b9b; font-size: 1rem; border-radius: 10px; cursor: pointer; margin-right: 10px; }
+@media only screen and (max-width: 768px) { .action-buttons { display: block; } .action-buttons .back { margin-right: 0px; width: 100%; } .action-buttons .continue { margin-left: 0px; margin-top: 10px; margin-bottom: 10px; width: 100%; } input[type="text"], select, option { width: 100% !important; } .container { width: 100%; padding-right: 5%; padding-left: 5%; margin-right: auto; margin-left: auto; } .input-field { width: 97% !important; } .custom-select { width: 100% !important; } .row { padding-bottom: 10px; } .navigation .active{ margin-top: -5px; padding-top: 5px; } .navigation{ height: auto; padding: 5px; } }
+.progress-container { width: 100%; margin: 0 auto; position: relative; margin-top: 25px; }
+.progress-line { border: none; height: 2px; background-color: #ccc; position: absolute; top: 35%; left: 5%; right: 15%; z-index: 1; transform: translateY(-50%); width: 90%; }
+.progressbar { list-style: none; padding: 0; display: flex; justify-content: space-between; margin: 0; padding-top: 15px; }
+.progressbar li { position: relative; text-align: center; z-index: 2; }
+.progressbar li .icon { width: 50px; height: 50px; border-radius: 50%; background-color: #f4f4f4; display: flex; align-items: center; justify-content: center; margin: 0 auto; position: relative; z-index: 3; }
+.progressbar li.active .icon { background-color: #e74c3c; }
+.progressbar li span { display: block; margin-top: 8px; color: #333; font-size: 14px; }
+@media (min-width: 768px){.fs-1{ font-size: 50px;}}
+@media (max-width: 768px) { .progress-line { top: 35%; width: 80%; left: 10%; } .fs-1{font-size: 35px;} }
+a{text-decoration: none; }
+
+    @media only screen and (min-width: 768px) and (max-width: 1400px) {
+        .row .input-field, .row .custom-select {
+            width: 48%; /* Adjust width for two elements per row */
+            float: left; /* Align elements side by side */
+            margin-right: 4%; /* Space between elements */
+        }
+    
+        .row .input-field:nth-child(odd), .row .custom-select:nth-child(odd) {
+            margin-right: 4%;
+        }
+    
+        .row .input-field:nth-child(even), .row .custom-select:nth-child(even) {
+            margin-right: 0; /* Remove margin for even elements */
+        }
+    
+        input[type="text"], select, option {
+            width: 100% !important; /* Full width within their container */
+        }
+    
+        /* Clearfix for .row */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+    
