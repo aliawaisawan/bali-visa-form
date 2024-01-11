@@ -22,7 +22,7 @@ input[type="submit"]{padding:10px;border-radius:4px;border:none;background-color
 .number-of-persons .input-group-btn{padding:10px;background-color:#eee;border:1px solid #ccc;cursor:pointer;}
 .number-of-persons .input-group-btn:first-of-type{border-radius:5px 0 0 5px;}
 .number-of-persons .input-group-btn:last-of-type{border-radius:0 5px 5px 0;}
-.number-of-persons .number-input{text-align:center;padding:10px;border:0.5px solid #ccc;width:145px;margin:0;}
+.number-of-persons .number-input{text-align:center;padding:10px;border:0.5px solid #ccc;width:145px;margin:0; border-radius: 0px !important;}
 .form-row{display:flex;}
 .form-group.third-width{flex:1;border-radius:4px;}
 .form-group.third-width:last-child{margin-right:0;}
