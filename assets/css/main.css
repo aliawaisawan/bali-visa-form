@@ -32,7 +32,8 @@ input[type="submit"]{padding:10px;border-radius:4px;border:none;background-color
 select{width:100%;padding:10px;margin-top:10px;border:1px solid #ccc;border-radius:4px;}
 .adjustment{padding-left:20px;}
 .spacing{margin-top:-35px;}
-@media (min-width:769px){.services-persons{width:49%;display: flex; justify-content: space-between;}.spacing{margin-top:45px;} .fs-1{ font-size: 50px;} }
+@media (min-width:769px){.number-input{background-color: #f4f4f4; max-width: 50px;}
+.mt-mobile-2{margin-top: 45px;}.services-persons{width:49%;display: flex; justify-content: space-between;}.spacing{margin-top:45px;} .fs-1{ font-size: 50px;} }
 @media (min-width:769px){.services-item{width: 50%;}.border-right{border-right:2px solid #d6d4d4;border-radius:0px !important;}.float-right{margin-left:20px;}}
 .progress-container{width:96%;margin:0 auto;position:relative; margin-top: 25px;}
 .progress-line{border:none;height:2px;background-color:#ccc;position:absolute;top:35%;left:0;right:0;z-index:1;transform:translateY(-50%);width:92%;}
@@ -43,7 +44,6 @@ select{width:100%;padding:10px;margin-top:10px;border:1px solid #ccc;border-radi
 .progressbar li .icon{width:50px;height:50px;border-radius:50%;background-color:#f4f4f4;display:flex;align-items:center;justify-content:center;margin:0 auto;position:relative;z-index:3;}
 .progressbar li.active .icon{background-color:#e74c3c;}
 .progressbar li span{display:block;margin-top:8px;color:#333;font-size:14px;}
-@media (max-width:769px){.fs-1{font-size: 35px;} .number-of-persons{ margin-top: 30px;} .mt-5{margin-top: 30px;}.progress-line{top:30%;width:80%;} .progress-container{width:92%;}} .my-5{ margin: 30px 0px;}
-.number-input{background-color: #f4f4f4; max-width: 50px;}
+@media (max-width:769px){.mt-mobile-2{margin-top: -20px;}.fs-1{font-size: 35px;} .number-of-persons{ margin-top: 30px;} .mt-5{margin-top: 30px;}.progress-line{top:30%;width:80%;} .progress-container{width:92%;}} .my-5{ margin: 30px 0px;}
 a{text-decoration: none;}
 @media (min-width:1160px){ .third-form{min-width: 65% !important;}}
