@@ -22,7 +22,7 @@ input[type="text"], .custom-input { width: 16em; }
 input[type="radio"] { accent-color: red !important; width: 13px !important; height: 13px !important; }
 .custom-input { width: 20em !important; }
 .custom-select { border-radius: 2px !important; }
-select, option { height: 40px !important; width: 20.5em; padding: 8px; font-size: medium; background-color: #f4f4f4 !important; border: 1px solid #d0d0d0 !important; }
+select, option { height: 40px !important; width: 20.5em; padding: 8px; font-size: medium; background-color: #f4f4f4 !important; color: black !important; border: 1px solid #d0d0d0 !important; border-radius: 2px !important; }
 .important { color: red; }
 .sub-heading { padding-bottom: 20px; }
 .heading-sub { font-weight: 400; }
